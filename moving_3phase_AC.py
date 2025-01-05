@@ -9,7 +9,7 @@ angles = np.linspace(0, 720, 2000)
 radians = np.deg2rad(angles)
 
 # Define the frequency (in Hz)
-frequency = 1
+frequency = 2
 Vpk = 311.15  # Voltage of the wave peak. Is the peak voltage of the AC signal.
 
 Vrms = Vpk / np.sqrt(2)  # Root Mean Square Voltage. It's a way to express the effective value of an alternating current (AC) voltage
